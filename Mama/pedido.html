@@ -1,0 +1,195 @@
+<html>
+
+<head>
+    <link rel="icon" href=".\imagens\logo.png" type="./logo.png" />
+    <link rel="./logo.png" href=".\imagens\logo.png" type="./logo.png" />
+    <meta charset="UTF-8">
+    <title> Mama Dulce </title>
+    <meta name="description" content="Mama Dulce - Pagina Inicial">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href=".\css\estilo.css" />
+    <script type="text/javascript">
+        function calcular() {
+            a = document.getElementById("n1").value * 3;
+            b = document.getElementById("n2").value * 4;
+            c = document.getElementById("n3").value * 3;
+            d = document.getElementById("n4").value * 3;
+            e = document.getElementById("n5").value * 3;
+            f = document.getElementById("n6").value * 3;
+            g = document.getElementById("n7").value * 3;
+            h = document.getElementById("n8").value * 3;
+            i = document.getElementById("n9").value * 3;
+            document.getElementById("resultado").value = (Number(a) + Number(b) + Number(c) + Number(d) + Number(e) + Number(f) + Number(g) + Number(h)) * 0.5;
+        }
+    </script>
+</head>
+
+<body div id="header">
+    <meta name="keywords" content="Cafeteria, Loja de Café">
+    <center><img src=".\imagens\logomae.png" width="auto" height="50%"> </center>
+    <h1 style="font-family:Rajdhani Light">
+        <center>Seja mais feliz com café adocicado!</center>
+    </h1>
+    <div id="menu">
+        <center>
+            <ul>
+                <li><a href="paginainicial.html">Home</a></li>
+                <li><a href="cardápio.html">Cardápio</a></li>
+                <li><a href="cardapioespecial.html">Cardápio Especial</a></li>
+                <li><a href="especialdodia.html">Especial do Dia</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="pedido.html">Pedido</a></li>
+                <li><a href="trabalheconosco.html">Trabalhe Conosco</a></li>
+                <li><a href="identidade.html">Identidade Visual</a></li>
+
+            </ul>
+        </center>
+    </div>
+    <p> Bem vindo! Nossa loja de cafés prepara as melhores delícias para saciar seu paladar. Aqui acreditamos que: <i>" Um café quentinho aquece o coração daquele que o toma, o transformando em um lugar cheio de amor, que transborda e torna o mundo um lugar melhor".</i>        Assim em nosso estabelecimento você encontrará um ambiente aconchegante pronto para servir o melhor café da cidade!</p>
+    <div>
+        <p>
+            <h1>Cardápio de Bebidas</h1>
+        </p>
+        <!--<li>
+                    <lu>
+                            <b>Café Expresso (Pequeno) - <strike>R$3,00</strike> por apenas R$2,00 </b>
+                            <form onsubmit="return false" oninput="o.value = a.valueAsNumber * b.valueAsNumber">
+                                    <input name="a" id="a" type="number" step="any"> *
+                                    <input name="b" id="b" type="number" step="any"> = R$
+                                    <output name="o" for="a b"></output>
+                                    </form>
+                        </lu>
+                        </li>
+            <li>
+                <lu>
+                    <b>Café Expresso</b>
+                    <head>
+                       <b> Café Expresso Duplo - <strike>R$4,00</strike> por apenas R$3,00 </b>
+                       <form onsubmit="return false" oninput="o.value = a.valueAsNumber * b.valueAsNumber">
+                          <input name="a" id="a" type="number" step="any"> *
+                          <input name="b" id="b" type="number" step="any"> = R$
+                          <output name="o" for="a b"></output>
+                       </form>
+                <li>
+                    <lu>
+                            <b>Café com Leite - <strike>R$3,00</strike> por apenas R$2,00 </b>
+                            <form onsubmit="return false" oninput="o.value = a.valueAsNumber * b.valueAsNumber">
+                                <input name="a" id="a" type="number" step="any"> *
+                                <input name="b" id="b" type="number" step="any"> = R$
+                                <output name="o" for="a b"></output>
+                                </form>
+                           
+                        <li>
+                        <lu>
+                                <b>Café com Chantilly - <strike>R$3,00</strike> por apenas R$2,00 </b>
+                                <form onsubmit="return false" oninput="o.value = a.valueAsNumber * b.valueAsNumber">
+                                        <input name="a" id="a" type="number" step="any"> *
+                                        <input name="b" id="b" type="number" step="any"> = R$
+                                        <output name="o" for="a b"></output>
+                                        </form>
+                            <li>
+                            <lu>
+                                    <b>Café Gelado - <strike>R$3,00</strike> por apenas R$2,00 </b>
+                                    <form onsubmit="return false" oninput="o.value = a.valueAsNumber * b.valueAsNumber">
+                                            <input name="a" id="a" type="number" step="any"> *
+                                            <input name="b" id="b" type="number" step="any"> = R$
+                                            <output name="o" for="a b"></output>
+                                            </form>
+                                </lu>
+                                </li>
+                                <li>
+                                <lu>
+                                        <b>Capuccino - <strike>R$3,00</strike> por apenas R$2,00 </b>
+                                        <form onsubmit="return false" oninput="o.value = a.valueAsNumber * b.valueAsNumber">
+                                                <input name="a" id="a" type="number" step="any"> *
+                                                <input name="b" id="b" type="number" step="any"> = R$
+                                                <output name="o" for="a b"></output>
+                                                </form>
+                                    </lu>
+                                    </li>
+                                    <li>
+                                    <lu>
+                                           <b> Suco de Laranja - <strike>R$3,00</strike> por apenas R$2,00 </b>
+                                           <form onsubmit="return false" oninput="o.value = a.valueAsNumber * b.valueAsNumber">
+                                                <input name="a" id="a" type="number" step="any"> *
+                                                <input name="b" id="b" type="number" step="any"> = R$
+                                                <output name="o" for="a b"></output>
+                                                </form>
+                                        </lu>
+                                        </li>
+                                        <li>
+                                        <lu>
+                                                <b>Copo de Leite - <strike>R$3,00</strike> por apenas R$2,00 </b>
+                                                <form onsubmit="return false" oninput="o.value = a.valueAsNumber * b.valueAsNumber">
+                                                        <input name="a" id="a" type="number" step="any"> *
+                                                        <input name="b" id="b" type="number" step="any"> = R$
+                                                        <output name="o" for="a b"></output>
+                                                        </form>
+                                            </lu>
+                                            </li>
+                                            <li>
+                                            <lu>
+                                                    <b>Água Mineral - <strike>R$3,00</strike> por apenas R$2,00 </b>
+                                                    <form onsubmit="return false" oninput="o.value = a.valueAsNumber * b.valueAsNumber">
+                                                            <input name="a" id="a" type="number" step="any"> *
+                                                            <input name="b" id="b" type="number" step="any"> =R$
+                                                            <output name="o" for="a b"></output>
+                                                            </form>
+                                            </li>
+            </li>
+    
+    
+    
+    
+    
+        </div>
+    </div>
+</script>-->
+        <form onsubmit="return false">
+            <center>
+                <p>
+                    <fieldset style="width: 65%">
+                        <tr>
+                            <legend style="color: red;"><b>Faça seu pedido e tenha 50% de desconto</b></legend>
+                </p>
+                <fieldset>
+                    <div class="input-group mb-3">
+                        <br />
+                        <legend> Cafés</legend><br />
+                        <label> Café Expresso (pequeno) <strike> R$ 3,00</strike> <input id="n1" type="number" name="quantidade" min="0" max="10" step="1.00" autofocus> </label><br>
+                        <p></p>
+                        <label>Café Expresso Duplo <strike>R$4,00</strike> <input id="n2" type="number" name="quantidade" min="0" max="10" step="1.00"> </label><br>
+                        <p></p>
+                        <label> Café com Leite <strike> R$ 3,00</strike> <input id="n3" type="number" name="quantidade" min="0" max="10" step="1.00"> </label><br>
+                        <p></p>
+                        <label> Café com Chantilly <strike> R$ 3,00</strike> <input id="n4" type="number" name="quantidade" min="0" max="10" step="1.00"> </label><br>
+                        <p></p>
+                        <label> Café Gelado <strike> R$ 3,00</strike> <input id="n5" type="number" name="quantidade" min="0" max="10" step="1.00"> </label><br>
+                        <p></p>
+                        <label> Capuccino <strike> R$ 3,00</strike> <input id="n6" type="number" name="quantidade" min="0" max="10" step="1.00"> </label><br>
+                        <p></p>
+                        <label> Suco de Laranja <strike> R$ 3,00</strike> <input id="n7" type="number" name="quantidade" min="0" max="10" step="1.00"> </label><br>
+                        <p></p>
+                        <label> Copo de Leite <strike> R$ 3,00</strike> <input id="n8" type="number" name="quantidade" min="0" max="10" step="1.00"> </label><br>
+                        <p></p>
+                        <label> Agua Mineral <strike> R$ 3,00</strike> <input id="n9" type="number" name="quantidade" min="0" max="10" step="1.00"> </label><br>
+                        <br>
+                        <output id="resultado" onforminput="calcular()"></output>
+                        <center> <a class="btn btn-primary" input type="submit" onclick="calcular()" role="button">Calcular</a></center>
+                    </div>
+                </fieldset>
+                <br>
+                <br>
+                <h4>
+                    <center>Venha nos conhecer aqui na rua Flores, bairro Paraíso, cidade São Paulo!</center>
+                </h4>
+                <div id="menu">
+                    <ul>
+                        <li>
+                            <center> 2019 &copy Desenvolvido por Beatriz Atanazio e Letícia Jesus.</center>
+                        </li>
+                    </ul>
+                </div>
+</body>
+
+</html>
